@@ -1,0 +1,124 @@
+/* Страничка контактов */
+
+
+.contactimg {
+    width: 32px; 
+    float: left; 
+    margin-right: 10px;
+}
+
+.ulcont {
+    display: block;
+    height: 50px;
+}
+
+.contact_stroke {
+    display: block;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.clearfix {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.b11 {
+    line-height: 45px;
+}
+.b12 {
+    line-height: 30px;
+}
+.b13 {
+    line-height: 30px;
+}
+
+.contact_stroke a {
+    display: inline-block;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    line-height: 25px;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: rgb(111, 117, 119)
+}
+
+
+@media (min-width:1024px) {
+    .contact_stroke a {  
+    float: right;
+    }
+}
+
+/* Страничка анонсов статей */
+
+.articles {
+    margin-top: 2em;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.articles h2 {
+    margin-bottom: 20px;
+}
+
+.articles img {
+    position: relative;
+    border-radius: 10px;
+    top: 0;
+    display: block;
+    float: right;
+    width: 200px;
+}
+
+.articles a {
+    display: block;
+    float: right;
+    padding: 5px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    height: 30px;
+    background-color: rgb(107, 36, 74);
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+/* стиль для отдельной статьи */
+
+.article h1 {
+    text-align: center;
+}
+
+.article img {
+    margin-top: 20px;
+}
+
+.article ol {
+    margin-left: 50px;
+    border: 2px solid black;
+    padding: 5px 5px 5px 30px;
+}
+
+.article ol li {
+    margin-top: 20px;
+    background-color: cyan;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+@media (max-width: 1023px) {
+    .article img {
+        width: 100%;
+    }
+}
